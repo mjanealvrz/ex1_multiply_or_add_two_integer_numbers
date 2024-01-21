@@ -24,7 +24,9 @@ def mutiply_or_add(input_num1,input_num2):
     else: 
         return ("The Sum is  " + str(input_num1 +  input_num2) )
        
-
-    
+   
 #  Call the multiply_or_add function with user-input values
+result = mutiply_or_add(input_num1, input_num2)  
+
 # Print result 
+print("Result:", result)
