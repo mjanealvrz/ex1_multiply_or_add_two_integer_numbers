@@ -5,6 +5,8 @@
 #Pseudocode
 
 # Ask user to input two integer numbers
+input_num1 = int(input("Enter 1st Number: "))
+input_num2 = int(input("Enter 2nd number: "))
 # Create function with if-else statement
     #calculate the product of two integer numbers
     # using if-else statement define if the product is lower or equal to 1000
