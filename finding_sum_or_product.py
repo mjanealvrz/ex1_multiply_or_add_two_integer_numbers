@@ -3,11 +3,6 @@
 
 
 #Pseudocode
-
-# Ask user to input two integer numbers
-input_num1 = int(input("Enter 1st Number: "))
-input_num2 = int(input("Enter 2nd number: "))
-
 # Create function with if-else statement
 def mutiply_or_add(input_num1,input_num2):
 
@@ -23,8 +18,11 @@ def mutiply_or_add(input_num1,input_num2):
      # if false, return the sum of input_num1 and input_num2    
     else: 
         return ("The Sum is  " + str(input_num1 +  input_num2) )
-       
-   
+    
+# Ask user to input two integer numbers
+input_num1 = int(input("Enter 1st Number: "))
+input_num2 = int(input("Enter 2nd number: "))
+          
 #  Call the multiply_or_add function with user-input values
 result = mutiply_or_add(input_num1, input_num2)  
 
